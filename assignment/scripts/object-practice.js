@@ -25,12 +25,17 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+let fullName= me.firstName.concat(' '+me.lastName)
+console.log(fullName);
+
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log('The first of my 3 favorite foods is,', me.favThreeFoods[0]);
+console.log('My third favorite food is,', me.favThreeFoods[2]);
 
 
 /* 4. Change a property of an existing object.
